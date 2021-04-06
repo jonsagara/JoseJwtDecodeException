@@ -29,7 +29,8 @@ namespace JoseJwtDecodeException
             {
                 var decodedPayload = JWT.Decode<SamplePayloadModel>(jwt, secretBytes, JwsAlgorithm.HS256);
                 var decodedPayloadJson = JsonConvert.SerializeObject(decodedPayload, Formatting.Indented);
-                Console.WriteLine($"decoded jwt payload: {decodedPayloadJson}");
+                Console.WriteLine("decoded jwt payload:");
+                Console.WriteLine(decodedPayloadJson);
             }
             catch (Exception ex)
             {
