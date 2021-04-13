@@ -1,6 +1,6 @@
 # jose-jwt `JWT.Decode<T>` Exception
 
-> UPDATE: issue fixed in release [3.1.1](https://github.com/dvsekhvalnov/jose-jwt/releases/tag/v3.1.1). Thank you, @dvsekhvalnov!
+> UPDATE: issue fixed in release [3.1.1](https://github.com/dvsekhvalnov/jose-jwt/releases/tag/v3.1.1). Thank you, [@dvsekhvalnov](https://github.com/dvsekhvalnov)!
 
 ---
 When referencing the 3.1.0 version of [jose-jwt](https://github.com/dvsekhvalnov/jose-jwt/), calls to `JWT.Decode<T>` started throwing exceptions.
